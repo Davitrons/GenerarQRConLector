@@ -1,7 +1,7 @@
 {
     "name": "GenerarQRConLector",
     "short_name": "QRLector",
-    "start_url": "/GenerarQRConLector/blob/master/generarQR.html",
+    "start_url": "/web.appmanifest",
     "display": "fullscreen",
     "related_applications": [{
       "platform": "web"
