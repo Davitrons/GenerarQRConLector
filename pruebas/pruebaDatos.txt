@@ -1,0 +1,26 @@
+coordenadas = []
+Array []
+
+trayectoria1 = new Object
+Object {  }
+
+trayectoria1.x = 58
+58
+trayectoria1.y = 143
+143
+coordenadas.push(trayectoria1)
+1
+coordenadas
+Array [ {…} ]
+
+trayectoria2 = new Object
+Object {  }
+
+trayectoria2.x = 202
+202
+trayectoria2.y = 141
+141
+coordenadas.push(trayectoria2)
+2
+
+

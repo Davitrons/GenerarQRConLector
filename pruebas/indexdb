@@ -1,0 +1,13 @@
+var request = indexedDB.open('dbPlantas', 2);
+
+request.onsuccess = (e) =>{
+    var db = e.target.result;
+    var txn = db.transaction("Planta 1", 'readwrite');
+    var store = txn.objectStore(`Planta 1`);
+    var request = store.get(2);
+
+    request.onsuccess = (e) =>{
+        console.log(e.target.result.Destino)
+        e.target.result.Destino = "";
+    }
+}
