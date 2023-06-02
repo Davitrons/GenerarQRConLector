@@ -1,13 +1,10 @@
 {
-    "name": "Google I/O 2015",
-    "short_name": "I/O 2015",
-    "start_url": "./?utm_source=web_app_manifest",
-    "display": "standalone",
+    "name": "GenerarQRConLector",
+    "short_name": "QRLector",
+    "start_url": "/GenerarQRConLector/blob/master/generarQR.html",
+    "display": "fullscreen",
     "related_applications": [{
       "platform": "web"
-    }, {
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=com.google.samples.apps.iosched"
     }]
   }
   
