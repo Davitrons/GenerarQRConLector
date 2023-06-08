@@ -1,7 +1,78 @@
   body {
-    text-align: center;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
   }
-  #myCanvas{
-    border: 2px solid #d3d3d3;
+
+  h1 {
+    text-align: center;
+  }
+
+  #myCanvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+  }
+
+  .botonera{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #selectPuertas {
+    margin: 20px auto;
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #555;
+  }
+  
+  #selectPuertas option {
+    padding: 5px;
+  }
+  
+  #selectPuertas option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  #selectPuertas option:checked {
+    font-weight: bold;
+  }
+
+  /* button {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  } */
+
+  .video-cam {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #cam-canvas {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+
+  .d-none {
+    display: none
   }

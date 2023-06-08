@@ -49,8 +49,8 @@ class QRReader {
         this.camCanvas.height
       );
       this.camCanvas.classList.add("d-none");
-      this.qrDataContainer.innerHTML = "";
-      this.qrDataContainer.classList.remove("has-background-success");
+      // this.qrDataContainer.innerHTML = "";
+      // this.qrDataContainer.classList.remove("has-background-success");
       return;
     }
     this.isCamOpen = true;
@@ -116,7 +116,6 @@ class QRReader {
           "#FF3B58"
         );
         this.qrDataContainer.innerHTML = code.data;
-        this.qrDataContainer.classList.add("has-background-success");
       }
     }
     this.rafID = requestAnimationFrame(this.tick.bind(this));
